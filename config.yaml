@@ -1,0 +1,32 @@
+# server id
+server_id: sv001
+# 数据库 #root:123456@tcp(127.0.0.1:3306)/zxmh_db?charset=utf8mb4&parseTime=True&loc=Local
+mysql_url:
+# 后台配置地址 #root:123456@tcp(127.0.0.1:3306)/gva?charset=utf8mb4&parseTime=True&loc=Local
+cnf_db_url:
+# Redis 连接 #redis://localhost:6379/?pwd=&db=3
+redis_url:
+# 闲置连接, 单服压力3000在线
+idle_conn_size: 3000
+# 最大连接
+max_conn_size: 4000
+# 服务监听地址
+listen_addr: :8080
+# 日志级别
+log_level: debug
+# 日志文件
+log_file:
+# 域名连接
+web_host: "http://127.0.0.1"
+# 签名验证
+signature: "TpGLnL2VQHqV0pPu8ZLk3yBc5s"
+# CPU 核心数
+cpu_num: 2
+# pprof 调优
+pprof: true
+# nats url
+nats_url: nats://47.113.112.94:4222
+# 是否维护
+maintenance: false
+# 维护IP
+maintenance_ip: 127.0.0.1
