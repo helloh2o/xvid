@@ -1,2 +1,2 @@
 # xvid
-basic web service
+an assist service
